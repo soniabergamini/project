@@ -1,0 +1,78 @@
+/* Formattazione Generale */
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+#square {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 3%;
+  padding: 5%;
+  margin: 5% 18% 8% 18%;
+}
+
+header {
+  line-height: 10px;
+  text-align: center;
+}
+
+header img:first-child {
+  width: 200px;
+}
+
+h1 {
+  color: #00DE00;
+}
+
+nav {
+  background-color: #00DE00;
+  padding: 1%;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #FFF487;
+  border-radius: 3px;
+  border: 0.5px solid grey;
+}
+
+section {
+  color: white;
+}
+
+section div:first-child {
+  display: inline-block;
+  padding-top: 2%;
+  font-size: 19px;
+}
+
+.subtitles {
+  font-size: 13px
+}
+
+section div:last-child {
+  min-height: 22px;
+  border-radius: 3px;
+}
+
+#orangebar {
+  width: 35%;
+  background-color: #F5B453;
+}
+
+#greenbar {
+  width: 60%;
+  background-color: #1CC31D;
+}
+
+#redbar {
+  width: 15%;
+  background-color: #BF4141;
+}
